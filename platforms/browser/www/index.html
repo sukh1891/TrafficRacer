@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Traffic racer</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body onload="onLoad();">
+        <div id="score_div">
+            Score: <span id="score">0</span>
+        </div>
+        <div id="container">
+            <div id="line_1" class="line"></div>
+            <div id="line_2" class="line"></div>
+            <div id="line_3" class="line"></div>
+            <div id="car" class="car">
+                <div class="f_glass"></div>
+                <div class="b_glass"></div>
+                <div class="f_light_l"></div>
+                <div class="f_light_r"></div>
+                <div class="f_tyre_l"></div>
+                <div class="f_tyre_r"></div>
+                <div class="b_tyre_l"></div>
+                <div class="b_tyre_r"></div>
+            </div>
+            <div id="car_1" class="car">
+                <div class="f_glass"></div>
+                <div class="b_glass"></div>
+                <div class="f_light_l"></div>
+                <div class="f_light_r"></div>
+                <div class="f_tyre_l"></div>
+                <div class="f_tyre_r"></div>
+                <div class="b_tyre_l"></div>
+                <div class="b_tyre_r"></div>
+            </div>
+            <div id="car_2" class="car">
+                <div class="f_glass"></div>
+                <div class="b_glass"></div>
+                <div class="f_light_l"></div>
+                <div class="f_light_r"></div>
+                <div class="f_tyre_l"></div>
+                <div class="f_tyre_r"></div>
+                <div class="b_tyre_l"></div>
+                <div class="b_tyre_r"></div>
+            </div>
+            <div id="car_3" class="car">
+                <div class="f_glass"></div>
+                <div class="b_glass"></div>
+                <div class="f_light_l"></div>
+                <div class="f_light_r"></div>
+                <div class="f_tyre_l"></div>
+                <div class="f_tyre_r"></div>
+                <div class="b_tyre_l"></div>
+                <div class="b_tyre_r"></div>
+            </div>
+            <div class="over_div">
+                <b>Game Over</b>
+                <div class="urscore">
+                    Score: 0
+                </div>
+                <div class="newscore">
+                    Congratulations! New High Score.
+                </div>
+                <a class="restart">
+                    <i class="fa fa-repeat"></i>
+                </a>
+            </div>
+            <div class="pause_div">
+                <b>Game Paused</b>
+                <div class="pdicons">
+                    <a class="continue">
+                        <i class="fa fa-play"></i>
+                    </a>
+                    <a class="restart">
+                        <i class="fa fa-repeat"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="start_div">
+                <a class="start">
+                    <i class="fa fa-play"></i>
+                </a>
+                <div class="hiscore">
+                    High Score: 0
+                </div>
+            </div>
+        </div>
+        <div class="ppbutton">
+            <a><i class="fa fa-pause"></i></a>
+        </div>
+        <div class="left">
+            
+        </div>
+        <div class="right">
+            
+        </div>
+        <script src="jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

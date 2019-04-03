@@ -1,0 +1,36 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.ktech.purikart"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.ktech.purikart"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ktech.purikart"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ktech.purikart"
+        },
+        "cordova-phone-calllog-watch": {
+            "PACKAGE_NAME": "com.ktech.purikart"
+        },
+        "callsplugin": {
+            "PACKAGE_NAME": "com.ktech.purikart"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ktech.naracrm"
+        },
+        "cordova-plugin-websql": {
+            "PACKAGE_NAME": "com.naracl.crm"
+        }
+    },
+    "dependent_plugins": {}
+}
